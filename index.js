@@ -5,6 +5,7 @@ let count = 0
 function increment() {
     count += 1
     countEl.textContent = count
+    console.log(count)
 }
 
 function save() {
